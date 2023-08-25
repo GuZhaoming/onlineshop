@@ -1,0 +1,6 @@
+mysql:
+  host: '192.168.31.172'
+  port: 3306
+  user: 'user'
+  password: 'root'
+  db: 'olshop_goods_srv'

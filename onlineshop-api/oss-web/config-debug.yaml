@@ -1,0 +1,18 @@
+name: 'oss-web'
+host: '127.0.0.1'
+port: 8023
+
+jwt:
+  key: 'G6KPYkb^&3QMcwXC&F16H7$UwT^o1p2z'
+
+consul:
+  host: '192.168.31.172'
+  port: 8500
+  tags: ["qingyu","qingyu1"]
+
+oss:
+  key: 'LTAI5t9QPYbR3ypZQxUn1Ux1'
+  secret: 'TuvZNoL8wLlmquQGEaioQQKYklv5hi'
+  host: 'http://onlineshop-files.oss-cn-beijing.aliyuncs.com'
+  callback_url: 'http://127.0.0.1:8083/callback'
+  upload_dir: 'onlineshop-image'

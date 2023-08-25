@@ -1,0 +1,26 @@
+name: 'goods-web'
+host: '192.168.31.172'
+port: 8023
+
+goods_srv:
+  host: '192.168.31.172'
+  port: 50053
+  name: 'user-srv'
+
+
+jwt:
+  key: 'G6KPYkb^&3QMcwXC&F16H7$UwT^o1p2z'
+
+sms:
+  key: 'LTAI5tKWHsrrnhAY3nRaNPqd'
+  secret: 'DYky40MW9GUedJo6myL7cH1GNQoPXR'
+
+redis:
+  host: '192.168.31.172'
+  port: 6379
+  expire: 3000
+
+consul:
+  host: '192.168.31.172'
+  port: 8500
+  tags: ["qingyu","qingyu1"]

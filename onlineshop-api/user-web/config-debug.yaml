@@ -1,0 +1,25 @@
+name: 'user-web'
+host: '192.168.31.172'
+port: 8021
+
+user_srv:
+  host: '192.168.31.172'
+  port: 50051
+  name: 'user-srv'
+
+jwt:
+  key: 'G6KPYkb^&3QMcwXC&F16H7$UwT^o1p2z'
+
+sms:
+  key: 'LTAI5tKWHsrrnhAY3nRaNPqd'
+  secret: 'DYky40MW9GUedJo6myL7cH1GNQoPXR'
+  
+redis:
+  host: '192.168.31.172'
+  port: 6379
+  expire: 300
+
+consul:
+  host: '192.168.31.172'
+  port: 8500
+  tags: ["qingyu","qingyu1"]

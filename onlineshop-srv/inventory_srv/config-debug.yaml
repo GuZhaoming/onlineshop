@@ -1,0 +1,11 @@
+name: 'inventory-srv'
+mysql:
+  host: '192.168.31.172'
+  port: 3306
+  user: 'root'
+  password: 'root'
+  db: 'olshop_inventory_srv'
+
+consul:
+  host: '192.168.31.172'
+  port: 8500
